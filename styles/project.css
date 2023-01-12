@@ -13,6 +13,40 @@
   box-sizing: border-box;
 }
 
+.banner {
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(#f5f3ee, #d2dce6);
+  margin-bottom: -240px;
+  box-shadow: #000;
+  box-shadow: 34px 33px 37px rgb(2, 2, 2);
+}
+
+.banner img {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  box-shadow: 14px 13px 17px rgb(0 0 0 );
+}
+
+.banner span{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  text-align: center;
+  margin-right: -150px;
+}
+
+.banner span p {
+  margin-left: -650px;
+  font-family: "Dosis", sans-serif;
+  font-size: 22px;
+}
+
+
 .projectpage-image {
   margin-bottom: -350px;
   margin-top: 300px;

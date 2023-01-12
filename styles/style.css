@@ -41,7 +41,7 @@ section {
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 20s slider infinite;
+  animation: 32s slider infinite;
 }
 
 #slider figure img {
