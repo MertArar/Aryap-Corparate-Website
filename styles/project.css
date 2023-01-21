@@ -103,7 +103,7 @@
 }
 
 @media screen and(max-width: 1250px) {
-  .about {
+  .project {
     width: 100%;
     height: 100%;
     padding: 60px 0;
@@ -115,7 +115,7 @@
 }
 
 @media screen and(max-width: 650px) {
-  .about .main img {
+  .project .main img {
     margin-bottom: 35px;
   }
   .all-text h1 {
