@@ -1,0 +1,120 @@
+:root {
+  --main-color: #e8e8e8;
+  --corparate-color: #0f2535;
+  --border-color: #707070;
+  --back-color: #24292d;
+  --gold-color: #c6911f;
+  --footer-color: #061016;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+.about-us {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#eef3f5, #e7ecf1);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  padding: 4% 10%;
+}
+
+.main-img img {
+  max-width: 100%;
+  width: 560px;
+  height: auto;
+}
+
+.text {
+  padding: 6% 0;
+}
+
+.text h4 {
+  color: var(--corparate-color);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.text h1 {
+  color: var(--footer-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.divider {
+  width: 30%;
+  border: none;
+  height: 2px;
+  background-color: var(--gold-color);
+  margin-bottom: 50px;
+}
+
+.text p {
+  max-width: 600px;
+  color: var(--corparate-color);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 60px;
+  text-transform: none;
+}
+
+.last-text {
+  display: flex;
+}
+
+.text1 {
+  margin-right: 60px;
+}
+
+.last-text h3 {
+  color: #c6911f;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.last-text h5 {
+  color: #c6911f;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+/* MEDIA QUARIES */
+
+@media (max-width: 1385px) {
+  .about-us {
+    padding: 4% 4%;
+    transition: 0.3s;
+  }
+  .main-img img {
+    width: 500px;
+    height: auto;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 1240px) {
+  .text h1 {
+    font-size: 30px;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 1040px) {
+  .about-us {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .main-img img {
+    padding-top: 40px;
+  }
+}

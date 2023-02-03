@@ -80,26 +80,21 @@
 }
 
 .btn button {
-  background: rgba(250, 252, 255, 0.856);
+  background: var(--corparate-color);
   padding: 20px 32px;
   font-size: 14px;
   font-weight: bold;
-  color: #111111;
+  color: rgba(250, 252, 255, 0.856);
   border: none;
   outline: none;
   border-radius: 10px;
 }
 
 .btn button:hover {
-  background-color: var(--corparate-color);
-  color: white;
+  background-color: var(--footer-color);
+  color: #fff;
   transition: 0.3s;
   cursor: pointer;
-}
-
-.btn .btn {
-  background-color: #111111;
-  color: #fff;
 }
 
 @media screen and(max-width: 1250px) {

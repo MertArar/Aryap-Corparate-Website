@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/about.css" />
     <link
+      rel="shortcut icon"
+      href="images/sadeceucgen.png"
+      type="image/x-icon"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
@@ -30,6 +35,7 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Noto+Serif+Telugu:wght@100;200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script defer src="app.js"></script>
   </head>
   <stlye> </stlye>
   <body>
@@ -44,7 +50,7 @@
       <nav class="navbar">
         <ul>
           <li><a href="index.html">ANASAYFA</a></li>
-          <li><a href="#aboutid">HAKKIMIZDA</a></li>
+          <li><a href="aboutt.html">HAKKIMIZDA</a></li>
           <li>
             <a href="project.html">PROJELER</a>
             <ul>
@@ -62,18 +68,19 @@
       </nav>
     </header>
     <!-- ANASAYFA BÖLÜMÜ -->
-    <div id="homeid">
-      <div id="slider">
-        <figure>
-          <img src="./images/mainbackground.png" />
-          <img src="./images/mainbackground2.png" />
-          <img src="./images/mainbackground3.png" />
-          <img src="./images/bg 4 (1).png" />
-          <img src="./images/mainbackground.png"
-        </figure>
+    <div class="backgrounds">
+      <div id="homeid">
+        <div id="slider">
+          <figure>
+            <img src="./images/mainbackground.png" />
+            <img src="./images/mainbackground2.png" />
+            <img src="./images/mainbackground3.png" />
+            <img src="./images/bg 4 (1).png" />
+            <img src="./images/mainbackground.png"
+          </figure>
+        </div>
       </div>
     </div>
-
     <!-- HAKKIMIZDA BÖLÜMÜ -->
     <section id="aboutid" class="about">
       <div class="main">
@@ -86,8 +93,10 @@
             esse fugiat dignissimos corporis inventore quas iure saepe ipsam!
           </p>
           <div class="btn">
-            <button type="button">Lorem.</button>
-            <button type="button" class="btn2">Lorem, ipsum.</button>
+            <a href="aboutt.html"><button type="button">Daha Fazla</button></a>
+            <a href="contact.html"
+              ><button type="button" class="btn2">İletişim</button></a
+            >
           </div>
         </div>
       </div>
