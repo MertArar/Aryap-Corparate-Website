@@ -14,8 +14,6 @@
   border: none;
   outline: none;
   text-decoration: none;
-  text-transform: capitalize;
-  font-weight: 400;
   transition: 0.2s linear;
   font-size: 62.5%;
 }
@@ -64,6 +62,11 @@ html {
   padding: 0 2rem;
   padding: 2rem 0;
 }
+
+.gallery .title a:hover {
+  color: #c6911f;
+}
+
 .gallery .title {
   justify-content: center;
   align-items: center;
@@ -74,7 +77,7 @@ html {
 .gallery .title a {
   color: var(--corparate-color);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .gallery title a:hover {
@@ -144,7 +147,7 @@ html {
   color: var(--corparate-color);
   font-size: 1.5rem;
   padding: 1rem 0;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 5rem;
   font-family: "Dosis", sans-serif;
 }
