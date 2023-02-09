@@ -21,7 +21,7 @@ h1 {
   border-bottom: 0.1rem solid #0f2535;
   font-style: oblique;
   font-size: 28px;
-  font-weight: 750;
+  font-weight: 700;
   margin-bottom: 2.5rem;
 }
 
@@ -51,4 +51,15 @@ p {
 
 .gallery img {
   width: 100%;
+}
+
+.heading h2{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #0f2535;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  font-weight: 800;
 }
