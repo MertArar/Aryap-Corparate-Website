@@ -17,7 +17,7 @@
 
 html {
   overflow-x: hidden;
-  scroll-padding-top: 9rem;
+  scroll-padding-top: 1rem;
   scroll-behavior: smooth;
   height: 100%;
 }
@@ -29,7 +29,6 @@ body {
 section {
   padding: 0;
   margin: 0;
-  display: grid;
 }
 
 .hidden {
@@ -220,7 +219,7 @@ section {
   align-items: center;
   flex-direction: column;
   margin-bottom: 180px;
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 .partner .our-clients h3 {
