@@ -4,6 +4,8 @@
   --main-color: #e8e8e8;
   --corparate-color: #0f2535;
   --border-color: #707070;
+  --back-color: #24292d;
+  --gold-color: #c6911f;
   --footer-color: #061016;
 }
 
@@ -59,11 +61,13 @@ body {
   color: #fff;
   background: var(--corparate-color);
   cursor: pointer;
-  border-radius: 1rem;
+  border-radius: 10px;
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
 }
 
 .btn:hover {
-  background: var(--footer-color);
+  background: var(--gold-color);
 }
 
 .contact .heading {

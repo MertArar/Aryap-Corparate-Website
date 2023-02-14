@@ -77,6 +77,7 @@
   line-height: 30px;
   margin-bottom: 25px;
   opacity: 0.7;
+  text-transform: none;
 }
 
 .btn button {
@@ -91,7 +92,7 @@
 }
 
 .btn button:hover {
-  background-color: var(--footer-color);
+  background-color: var(--gold-color);
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
@@ -144,6 +145,8 @@
   font-size: 24px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #e8e8e8;
+  text-decoration: none;
+  text-transform: none;
 }
 
 .wrapper .wrapper-href a {
@@ -211,6 +214,7 @@
   color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
+  text-transform: none;
 }
 
 .back .inner a {
